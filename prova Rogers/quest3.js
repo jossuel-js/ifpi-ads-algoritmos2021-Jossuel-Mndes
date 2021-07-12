@@ -17,13 +17,13 @@ function main(){
             let parcelas = Number(input('Quantas parcelas? (Max 12x) '))
             let percentual_parcelas = ((parcelas)/100) * compra
             //
-                if(diasReceber === 2){
+                if(diasReceber <= 2){
                     taxa = (4.99/100) * compra + 0.40
                     valorL = compra - taxa - percentual_parcelas
-                }else if(diasReceber === 14){
+                }else if(2 < diasReceber <= 14){
                     taxa = (3.99/100) * compra + 0.40
                     valorL === compra - taxa - percentual_parcelas
-                }else if(diasReceber === 31){
+                }else if(14 < diasReceber <= 31){
                     taxa = (2,99/100) * compra + 0.40
                     valorL = compra - taxa - percentual_parcelas
                 }
@@ -41,13 +41,13 @@ function main(){
             //PAGAMENTO A VISTA
         else if(tipo === 2){
             
-                if(diasReceber === 2){
+                if(diasReceber <= 2){
                     taxa = (4.99/100) * compra + 0.40
                     valorL = compra - taxa
-                }else if(diasReceber === 14){
+                }else if(2 < diasReceber <= 14){
                     taxa = (3.99/100) * compra + 0.40
                     valorL = compra - taxa
-                }else if(diasReceber === 31){
+                }else if(14 < diasReceber <= 31){
                     taxa = (2,99/100) * compra + 0.40
                     valorL = compra - taxa
                 }
