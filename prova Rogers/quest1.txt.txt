@@ -1,0 +1,21 @@
+1. O que é, e para que é?
+
+a. Pensamento Computacional
+Pensamento computacional pode ser definido como uma estratégia usada para desenhar soluções e solucionar problemas de maneira eficaz tendo a tecnologia como base. 
+
+Desenvolver sua capacidade criativa, lógica e estratégica para resolver problemas em diferentes áreas de conhecimento utilizando bases computacionais.
+b. Algoritmo
+    Algoritmos consistem em uma série de instruções, raciocínios ou operações que visam um objetivo, em geral a solução de um problema
+
+    Um algoritmo serve para mostrar o passo a passo e os procedimentos necessários para a resolução de uma tarefa
+
+c. Programação
+     Programação é o processo de escrita, teste e manutenção de um programa de computador
+
+    É Descrever um algoritmo em uma linguagem que uma máquina é capaz de entender, como javascript, python, c++ e etc
+
+d. Modularização com uso de Funções
+    Modularização pode ser entendida como um conceito computacional que é empregado para dividir o seu programa em partes funcionais, partes essas que conversam umas com as outras
+
+    É uma forma de melhorar a organização e deixar o código menor, utilizando o recurso de exportar uma função de um arquivo
+    para outro
